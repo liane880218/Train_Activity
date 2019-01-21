@@ -1,0 +1,44 @@
+/* body{
+    background: url("background_img.png");   
+} */
+
+label, input, button, h1, h3, table{
+    font-family: 'Bree Serif', serif;
+}
+
+label, input, button{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h1{
+    font-size: 56px;
+}
+
+#header{
+    margin-top: 1%;
+    padding-left: 25%;
+    border-radius: 10px;
+}
+
+.form-group{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#addTrain{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+#trainData{
+    margin-bottom: 1%;
+}
+
+button:hover { 
+    transform: scale(1.1);
+    opacity: 0.8;
+}
