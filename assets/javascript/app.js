@@ -12,19 +12,20 @@ $(document).ready(function() {
 
     //Initialize variables
     var database = firebase.database();
-    var trainName = "";
-    var destination = "";
-    var firstTrainTime = "";
     var frecuency = 0;
-    var trainInfo = "";
-    var trainRow = "";
-
-    var firstTimeConverted = "";
+    var trainName = "", 
+        destination = "", 
+        firstTrainTime = "", 
+        trainInfo = "", 
+        trainRow = "", 
+        firstTimeConverted = "", 
+        diffTime = "",
+        tRemainder = "",
+        tMinutesTillTrain = "";
+        
+    
     var currentTime = "";
-    var diffTime = "";
-    var tRemainder = "";
-    var tMinutesTillTrain = "";
-    var nextTrain = "";
+
 
     //Calculate based on first train time and frecuency the next arrival and how many minutes away 
     function trainPrediction(frec, firstT){
